@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Chi tiết sản phẩm{% endblock %}
+
+{% block content %}
+<h2>{{ product.name }}</h2>
+<img src="{{ product.img }}" class="img-fluid mb-3" alt="{{ product.name }}">
+<p><strong>Giá:</strong> ${{ "%.2f"|format(product.price) }}</p>
+<p>{{ product.description }}</p>
+<a href="/" class="btn btn-secondary">Quay lại</a>
+{% endblock %}

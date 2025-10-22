@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Dell XPS 13",
+    "category_id": 1,
+    "price": 1200.00,
+    "description": "Laptop cao cấp, màn hình 13 inch, hiệu năng mạnh mẽ.",
+    "img": "https://bizweb.dktcdn.net/thumb/1024x1024/100/501/863/products/16152-ec469a9d-6509-4b31-b477-7b9f771e65eb-05b0c448-1414-4559-9e0d-680349a2a046-5120fc87-f202-4bcf-8f3a-39ca40bf03c7.jpg?v=1699674133610"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21",
+    "category_id": 2,
+    "price": 799.99,
+    "description": "Điện thoại flagship của Samsung, camera chất lượng.",
+    "img": "https://cdn.tgdd.vn/Products/Images/42/220833/samsung-galaxy-s21-tim-600x600.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Apple iPad Air",
+    "category_id": 3,
+    "price": 599.00,
+    "description": "Máy tính bảng nhẹ, màn hình Retina, pin lâu.",
+    "img": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-air-6-m2-11-inch_9_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "HP Spectre x360",
+    "category_id": 1,
+    "price": 1350.50,
+    "description": "Laptop 2 trong 1, thiết kế sang trọng, hiệu năng cao.",
+    "img": "https://www.laptopvip.vn/images/companies/1/HP-Spectre-x360-2-in-1-1.jpg?1622522600071"
+  },
+  {
+    "id": 5,
+    "name": "Google Pixel 6",
+    "category_id": 2,
+    "price": 699.00,
+    "description": "Điện thoại Android thuần Google, camera xuất sắc.",
+    "img": "https://bizweb.dktcdn.net/thumb/1024x1024/100/506/962/products/3784-23234.jpg?v=1709547151920"
+  }
+]

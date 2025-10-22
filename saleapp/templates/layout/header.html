@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">E-Commerce</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <li class="nav-item">
+            <a class="nav-link active" href="/">Trang chu</a>
+        </li>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                {% for c in cates%}
+                <li class="nav-item">
+                    <a class="nav-link" href="/?category_id={{ c.id }}">{{ c.name.capitalize() }}</a>
+                </li>
+                {%endfor%}
+            </ul>
+            <form class="d-flex" method="get" action="/">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q"
+                       value="{{ query or '' }}">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+
+        </div>
+    </div>
+</nav>

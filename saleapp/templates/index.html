@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Trang chủ{% endblock %}
+{% block content %}
+
+
+<div class="container mt-4">
+    <div class="row">
+        {% for p in products %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="{{ p.img }}" class="card-img-top" alt="{{ p.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ p.name }}</h5>
+                    <p class="card-text">{{ p.description }}</p>
+                    <p class="card-text"><strong>Price:</strong> ${{ "%.2f"|format(p.price) }}</p>
+                    <a href="/product/{{ p.id }}" class="btn btn-primary">Xem chi tiết</a>
+                    <a href="#" class="btn btn-danger">Đặt hàng</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
